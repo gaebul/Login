@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by ApplusForm.com on 2013.8.6
+
+	Permission is granted to copy, distribute, modify under the terms of ApplusForm License.
+
+	Copyright (C) 2013 ApplusForm.com All rights reserved.
+-->
+<MOML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd" version="1.1.1">
+	<CMD cmd="root.signup.titleNext.text = 'DONE'" />
+	<UILAYOUT portrait="720,1230" landscape="720,1230">
+		<LABEL layout="50,103,260,70" text="Email" fontSize="30" textAlign="vCenter" textColor="#000000" fontStyle="bold" />
+		<EDIT layout="332,110,361,70" text="" placeholder="Email" placeholderColor="#aeaea9" returnKeyType="next" onChange="" onReturnKey="" fontSize="30" textColor="#000000" textAlign="center"
+			defaultImg="#00000000" language="english" />
+		<IMAGE layout="28,156,665,10" defaultImg="res/editLine.png" />
+		<LABEL layout="50,196,260,70" text="Password" fontSize="30" textAlign="vCenter" textColor="#000000" fontStyle="bold" />
+		<EDIT layout="332,196,361,70" text="" placeholder="at least 8 characters" textFormat="textPassword" placeholderColor="#aeaea9" returnKeyType="next" onChange="" onReturnKey="" fontSize="30"
+			textColor="#000000" textAlign="center" defaultImg="#00000000" language="english" />
+		<IMAGE layout="28,248,665,10" defaultImg="res/editLine.png" />
+		<LABEL layout="50,290,260,70" text="Phone" fontSize="30" textAlign="vCenter" textColor="#000000" fontStyle="bold" />
+		<EDIT layout="332,297,361,70" text="" placeholder="optional" placeholderColor="#aeaea9" returnKeyType="done" onChange="" onReturnKey="" fontSize="30" textColor="#000000" textAlign="center"
+			defaultImg="#00000000" language="english" />
+		<IMAGE layout="28,342,665,10" defaultImg="res/editLine.png" />
+
+		<LABEL layout="30,385,660,153" text="{'We ll send a text message to confirm our phone number if you add one. we ll also use the contact info you give us to help you connect with other Vine users.'}"
+			fontSize="30" minFontSize="-1" multiLine="true" textAlign="center" textColor="#aeaea9" />
+		<LABEL layout="0,595,720,80" text="{'By signing up, you agree to the'+'\n'+'Privacy Policy &amp; Terms of Service.'}" fontSize="30" textAlign="center" textColor="#aeaea9" />
+	</UILAYOUT>
+</MOML>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Created by ApplusForm.com on 2013.8.6
+
+	Permission is granted to copy, distribute, modify under the terms of ApplusForm License.
+
+	Copyright (C) 2013 ApplusForm.com All rights reserved.
+-->
+<MOML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui.xsd" version="1.1.1">
+
+	<UILAYOUT portrait="720,1230" landscape="720,1230">
+		<POPUP layout="0,0,720,1230" defaultImg="#e5e5df" showEffect="fade:500" hideEffect="fade:500" onClick="action:close()" align="relative">
+			<WINDOW layout="0,0,720,95" defaultImg="#00be8d" align="relative">
+				<IMAGE layout="4,33,23,33" defaultImg="res/ic_ab_back.png" />
+				<IMAGE layout="32,18,53,62" defaultImg="res/ic_vine_status_bar.png" onClick="container.close()" />
+				<LABEL layout="103,0,536,95" text="Sign in with Twitter" fontSize="40" textAlign="vCenter" textColor="#ffffff" />
+				<IMAGE layout="641,27,48,50" defaultImg="res/ic_action_done.png" onClick="container.close()" />
+			</WINDOW>
+			<EDIT layout="28,180,665,70" text="" placeholder="Twitter username or email" placeholderColor="#aeaea9" returnKeyType="next" onChange="" onReturnKey="" fontSize="30" textColor="#000000"
+				textAlign="vCenter" defaultImg="res/edit_default.png" language="english" />
+			<EDIT layout="28,274,665,70" text="" placeholder="Twitter password" textFormat="textPassword" placeholderColor="#aeaea9" returnKeyType="next" onChange="" onReturnKey="" fontSize="30"
+				textColor="#000000" textAlign="vCenter" defaultImg="res/edit_default.png" language="english" />
+			<LABEL layout="0,490,720,80" text="{'by pressing next, you agree to the' +'\n'+ 'Twitter Terms of Service &amp; Privacy Policy.'}" fontSize="40" textAlign="center" textColor="#aeaea9" />
+		</POPUP>
+	</UILAYOUT>
+</MOML>
